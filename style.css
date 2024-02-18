@@ -1,0 +1,50 @@
+body {
+    min-height: 100vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: gold;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+input {
+    font-size: large;
+    color: blue;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px black;
+}
+
+#main__h1 {
+    color: greenyellow;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    color: greenyellow;
+}
+
+.section {
+    background-color: #333;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 2px double gold;
+    box-shadow: 20px 20px 20px yellow;
+    text-align: center;
+}
